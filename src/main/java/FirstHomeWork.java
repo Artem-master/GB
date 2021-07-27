@@ -1,4 +1,4 @@
-public class HomeWorkApp {
+public class FirstHomeWork {
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
@@ -8,18 +8,18 @@ public class HomeWorkApp {
     public static void printThreeWords () {
         System.out.println("Orange");
         System.out.println("Banana");
-        System.out.println("Apple"); 
+        System.out.println("Apple");
     }
 
     public static void checkSumSign () {
-    int a, b;
-    a = 5;
-    b = -7;
-    int value = a + b;
-    if (value >= 0){
-        System.out.println("Сумма положительная");
-    } else
-        System.out.println("Сумма отрицательная");
+        int a, b;
+        a = 5;
+        b = -7;
+        int value = a + b;
+        if (value >= 0){
+            System.out.println("Сумма положительная");
+        } else
+            System.out.println("Сумма отрицательная");
     }
     public static void printColor () {
         int min = -100;
@@ -44,5 +44,7 @@ public class HomeWorkApp {
             System.out.println(a + " >= " +b);
         } else
             System.out.println(a+ " < " + b);
+
+        System.out.println ("Пришел к успеху! Определенно!");
     }
 }
